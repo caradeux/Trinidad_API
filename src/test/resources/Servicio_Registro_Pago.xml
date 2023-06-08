@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kb="KB_TRINIDAD_AUTOFIN">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <kb:wsRegistrarPagoCuota.Execute>
+            <kb:Entrada>{
+                "CanalDePago": 11,
+                "MontoApagar": 366844,
+                "FormaDePagoId": 27,
+                "ClienteRut": "25359729-1",
+                "NroCuota": 4,
+                "FechaPago": "2023-05-26",
+                "TipoCuota": 1,
+                "Operacion": 2223137
+                }
+            </kb:Entrada>
+        </kb:wsRegistrarPagoCuota.Execute>
+    </soapenv:Body>
+</soapenv:Envelope>

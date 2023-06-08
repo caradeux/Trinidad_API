@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kb="KB_TRINIDAD_AUTOFIN">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <kb:wsObtenerDeudaPorRut.Execute>
+            <kb:Entrada>{'ClienteRut':'20082538-1'}</kb:Entrada>
+        </kb:wsObtenerDeudaPorRut.Execute>
+    </soapenv:Body>
+</soapenv:Envelope>

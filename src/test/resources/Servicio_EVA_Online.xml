@@ -1,0 +1,102 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kb="KB_TRINIDAD_AUTOFIN">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <kb:WS_CALL_CREDIEXPERT.Execute>
+            <kb:Wssolicitudevaluacionautofin>
+                <kb:General>
+                    <kb:SimulacionCrediExpert>212305100</kb:SimulacionCrediExpert>
+                    <kb:VendedorRUT>16921272-4</kb:VendedorRUT>
+                    <kb:Dealer>169</kb:Dealer>
+                    <kb:Sucursal>5</kb:Sucursal>
+                    <kb:Canal>17</kb:Canal>
+                    <kb:FechaCotizacion>2023-05-26T09:30:03</kb:FechaCotizacion>
+                    <kb:FechaPrimeraCuota>2023-07-05T00:00:00</kb:FechaPrimeraCuota>
+                    <kb:Comentario>PATENTE LZ GW 68</kb:Comentario>
+                </kb:General>
+                <kb:Vehiculo>
+                    <kb:VehiculoEstado>2</kb:VehiculoEstado>
+                    <kb:TipoVehiculo>0</kb:TipoVehiculo>
+                    <kb:Marca>39</kb:Marca>
+                    <kb:Serie>25</kb:Serie>
+                    <kb:Modelo>8</kb:Modelo>
+                    <kb:VehiculoAno>2020</kb:VehiculoAno>
+                </kb:Vehiculo>
+                <kb:Prestamo>
+                    <kb:Precio>10490000</kb:Precio>
+                    <kb:Pie>3000000</kb:Pie>
+                    <kb:SeguroCesantia>false</kb:SeguroCesantia>
+                    <kb:TipoCredito>2</kb:TipoCredito>
+                    <kb:Plazo>48</kb:Plazo>
+                    <kb:Accesorios>0</kb:Accesorios>
+                    <kb:Avales>
+                        <!--Zero or more repetitions:-->
+                        <kb:WS_Solicitud_Autofin_Prestamo_Avales.WS_Solicitud_Autofin_Prestamo_AvalesItem/>
+                    </kb:Avales>
+                </kb:Prestamo>
+                <kb:Cliente>
+                    <kb:ClienteRUT>17146990-2</kb:ClienteRUT>
+                    <kb:ClienteNombre>MICHAEL</kb:ClienteNombre>
+                    <kb:ClienteApellidoPaterno>CIFUENTES</kb:ClienteApellidoPaterno>
+                    <kb:ClienteApellidoMaterno>HERRERA</kb:ClienteApellidoMaterno>
+                    <kb:ClienteCaracteristicaTelefono>1</kb:ClienteCaracteristicaTelefono>
+                    <kb:ClienteTelefono>8653987</kb:ClienteTelefono>
+                    <kb:ClienteCelular>98653987</kb:ClienteCelular>
+                    <kb:ClienteEmail>miickel.c.h.8.13@outlook.es</kb:ClienteEmail>
+                    <kb:ClienteTipo>2</kb:ClienteTipo>
+                    <kb:ClienteFechaNacimiento>1989-02-18T00:00:00</kb:ClienteFechaNacimiento>
+                    <kb:CompraPara>false</kb:CompraPara>
+                    <kb:ObservacionCliente></kb:ObservacionCliente>
+                    <kb:TieneAval>false</kb:TieneAval>
+                    <kb:ClienteNaturalFechaNac>?</kb:ClienteNaturalFechaNac>
+                    <kb:ClienteNotaria>?</kb:ClienteNotaria>
+                    <kb:ClienteNotariaCiudad>?</kb:ClienteNotariaCiudad>
+                    <kb:ClienteNotariaFecha>?</kb:ClienteNotariaFecha>
+                    <kb:Activos>
+                        <!--Zero or more repetitions:-->
+                        <kb:WS_Solicitud_Autofin_Cliente_Activos.WS_Solicitud_Autofin_Cliente_ActivosItem/>
+                    </kb:Activos>
+                    <kb:Personales>
+                        <kb:Sexo>1</kb:Sexo>
+                        <kb:EsChileno>1</kb:EsChileno>
+                        <kb:EstadoCivil>0</kb:EstadoCivil>
+                        <kb:NaturalNacionalidad></kb:NaturalNacionalidad>
+                        <kb:Estudios>0</kb:Estudios>
+                        <kb:ProfesionId>0</kb:ProfesionId>
+                        <kb:NaturalDireccion>CERTENEJA 535       0 Depto       0</kb:NaturalDireccion>
+                        <kb:RegionParticularId>7</kb:RegionParticularId>
+                        <kb:RegionParticularComunaId>11</kb:RegionParticularComunaId>
+                        <kb:RegionParticularCiudadId>0</kb:RegionParticularCiudadId>
+                        <kb:CasaHabita>0</kb:CasaHabita>
+                        <kb:AvaluoComercial>0</kb:AvaluoComercial>
+                        <kb:MontoDividendo>0</kb:MontoDividendo>
+                    </kb:Personales>
+                    <kb:Laborales>
+                        <kb:EmpresaTrabaja>CONCHA Y TORO</kb:EmpresaTrabaja>
+                        <kb:EmpresaRUT>90227000-0</kb:EmpresaRUT>
+                        <kb:ActividadEconomicaId>0</kb:ActividadEconomicaId>
+                        <kb:GiroEmpresa></kb:GiroEmpresa>
+                        <kb:CargoEmpresa>OPERADOR</kb:CargoEmpresa>
+                        <kb:FechaContrato>2018-04-01T00:00:00</kb:FechaContrato>
+                        <kb:IngresoMensual>570000</kb:IngresoMensual>
+                        <kb:RegionComercialId>13</kb:RegionComercialId>
+                        <kb:RegionComercialComunaId>1</kb:RegionComercialComunaId>
+                        <kb:DireccionComercial>AV. NUEVA TAJAMAR 481 PISO 15 -       0</kb:DireccionComercial>
+                        <kb:RegionComercialCiudadId>0</kb:RegionComercialCiudadId>
+                        <kb:CarIdComercial1Nro></kb:CarIdComercial1Nro>
+                        <kb:ClienteNaturalTel1Comercial>SANTIAGO</kb:ClienteNaturalTel1Comercial>
+                        <kb:CarIdComercial2Nro></kb:CarIdComercial2Nro>
+                        <kb:ClienteNaturalTel2Comercial>I</kb:ClienteNaturalTel2Comercial>
+                    </kb:Laborales>
+                </kb:Cliente>
+                <kb:Archivos>
+                    <!--Zero or more repetitions:-->
+                    <kb:WS_Solicitud_Autofin_Archivos.WS_Solicitud_Autofin_ArchivosItem>
+                        <kb:DocumentoAdjuntoId>?</kb:DocumentoAdjuntoId>
+                        <kb:DocumentoAdjuntoNombre>?</kb:DocumentoAdjuntoNombre>
+                        <kb:DocumentoBase64>?</kb:DocumentoBase64>
+                    </kb:WS_Solicitud_Autofin_Archivos.WS_Solicitud_Autofin_ArchivosItem>
+                </kb:Archivos>
+            </kb:Wssolicitudevaluacionautofin>
+        </kb:WS_CALL_CREDIEXPERT.Execute>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,57 @@
+{
+  "TrinidadSolicitudRestSpiderReq":
+  {
+    "Concesionario": 1,
+    "Sucursal": 2,
+    "CodigoExterno": "",
+    "TipoNegocio": 1,
+    "TipoNegocioDescription": "AUTO RENUEVATE",
+    "Producto": 13,
+    "ProductoDescription": "AUTO RENUÉVATE L.M. N",
+    "Marca": "SUBARU",
+    "Modelo": "ALL NEW XV",
+    "Anio": 2023,
+    "Precio_vehiculo": 16589000,
+    "EstadoVehiculo": "N",
+    "Pie": 6635600,
+    "MontoVFMG": 6635600,
+    "Plazo": 36,
+    "Topic": "WEB_12988587-4",
+    "Canal": "31",
+    "Vendedor": 6800,
+    "Seguros":
+    {
+      "Desgravamen": false,
+      "Cesantia": false,
+      "DesgravamenPlus": false,
+      "AutoProtegido": false,
+      "PerdidaTotal": false,
+      "GPS": false,
+      "RDH": true,
+      "ReparacionesMenores": true
+    },
+    "DATOS_CLIENTE":
+    {
+      "Rut": "19054154-1",
+      "Tipo_cliente": 1,
+      "Tipo_cliente_Descripcion": "Dependiente",
+      "Nombre": "Richar",
+      "Apellido_Paterno": "Figueroa",
+      "Apellido_Materno": "C.",
+      "Email": "richard.figueroa@autofin.cl",
+      "Telefono": "966097705",
+      "Nacionalidad": "1",
+      "Nacionalidad_Descripcion": "Chileno(a)",
+      "Direccion": "Las Perdices 88"
+    },
+    "DATOS_LABORALES":
+    {
+      "Tipo_Contrato": 1,
+      "Tipo_Contrato_Descripcion": "Indefinido",
+      "Tipo_Renta": 1,
+      "Tipo_Renta_Descripcion": "Fija",
+      "Renta": 2121212,
+      "Antiguedad": 44
+    }
+  }
+}

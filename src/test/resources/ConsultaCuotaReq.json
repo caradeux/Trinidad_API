@@ -1,0 +1,27 @@
+{
+  "ConsultaCuotaReqRest":
+  {
+    "Precio": 16589000,
+    "MontoPie": 6635600,
+    "Plazo": "36",
+    "Producto": 13,
+    "TipoCredito": 1,
+    "Seguros":
+    {
+      "Desgravamen": false,
+      "Cesantia": false,
+      "DesgravamenPlus": false,
+      "AutoProtegido": false,
+      "PerdidaTotal": false,
+      "GPS": false,
+      "RDH": true,
+      "ReparacionesMenores": true
+    },
+    "Marca": "SUBARU",
+    "Modelo": "ALL NEW XV",
+    "Anno": "2023",
+    "Dealer": 1,
+    "Sucursal": 2,
+    "EstadoVehiculo": "N"
+  }
+}

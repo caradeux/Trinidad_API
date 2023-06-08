@@ -1,0 +1,15 @@
+{
+  "adjudicacion": {
+    "adjudicacion": [
+      {
+        "idAffinity": "20043291",
+        "fechaAdjudicacion": "2023-05-26T17:26:27",
+        "codOperacion": "A20043291",
+        "idEmpresaAdjudicada": "4",
+        "idEstadoAffinity": "1002",
+        "txtEstadoAffinity": "ADJUDICADO EF2",
+        "txtMensaje": "Adjudicacion a AUTOFIN con codigo de operacion :A20043291"
+      }
+    ]
+  }
+}

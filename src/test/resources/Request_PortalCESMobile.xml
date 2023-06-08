@@ -1,0 +1,17 @@
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:kb="KB_TRINIDAD_AUTOFIN">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <kb:prcInsertarClienteMobilePCesWs.Execute>
+            <kb:Secuserid>1</kb:Secuserid>
+            <kb:Clirut>15737625-K</kb:Clirut>
+            <kb:Clitipocliente>1</kb:Clitipocliente>
+            <kb:Clisueldoempresa>1980000</kb:Clisueldoempresa>
+            <kb:Tecnumerotelefono>966097705</kb:Tecnumerotelefono>
+            <kb:Emcemail>richard.figueroa@autofin.cl</kb:Emcemail>
+            <kb:Tipovehiculo>1</kb:Tipovehiculo>
+            <kb:Codcanal>48</kb:Codcanal>
+
+        </kb:prcInsertarClienteMobilePCesWs.Execute>
+    </soapenv:Body>
+</soapenv:Envelope>
